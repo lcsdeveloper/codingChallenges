@@ -17,7 +17,7 @@
 // You will be given an array of positive integers.
 // Check the Resources tab for more information on the types of triangles.
 
-let triangle = [2,3,5];
+let triangle = [2,30,5];
 function getTriangleType(triangle) {
   if (triangle.length != 3) {
     return 'not a triangle';
