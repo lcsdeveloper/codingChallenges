@@ -16,15 +16,13 @@
 let arr = ['G', 'F', 'C7'];
 
 function jazzify(arr) {
-
-  return arr1 = arr.map( e => {
-    if(e[e.length - 1] === "7"){
-      return e
-    }else {
-      return e+="7"
+  return (arr1 = arr.map(e => {
+    if (e[e.length - 1] === '7') {
+      return e;
+    } else {
+      return (e += '7');
     }
-  })
+  }));
 }
-
 
 console.log(jazzify(arr));
