@@ -41,7 +41,7 @@
 
 let arr = [
   [1, 2],
-  [4, 5]
+  [4, 8]
 ];
 
 function trace(arr) {
